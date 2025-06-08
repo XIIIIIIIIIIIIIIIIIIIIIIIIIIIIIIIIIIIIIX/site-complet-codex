@@ -9,4 +9,4 @@ Le site comporte plusieurs pages :
 - **about.html** : informations sur l'entreprise.
 - **contact.html** : formulaire de contact.
 
-Le design est volontairement sobre et moderne grâce aux classes utilitaires de Tailwind. Un petit script JavaScript permet d'afficher un menu mobile.
+Le design est sobre et moderne grâce à Tailwind et Font Awesome. Des sections avec images et appels à l'action sont incluses, ainsi qu'un formulaire de contact enrichi. Un petit script JavaScript gère l'affichage du menu mobile.

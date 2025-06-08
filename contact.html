@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Integration - Contact</title>
+  <meta name="description" content="Contactez-nous pour d\xC3\xA9marrer votre projet d'intelligence artificielle." />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
 </head>
 <body class="flex flex-col min-h-screen">
@@ -51,8 +54,16 @@
             <input id="name" type="text" class="mt-1 w-full px-3 py-2 border rounded" placeholder="Votre nom">
           </div>
           <div>
+            <label for="company" class="block text-sm font-medium">Entreprise</label>
+            <input id="company" type="text" class="mt-1 w-full px-3 py-2 border rounded" placeholder="Nom de votre entreprise">
+          </div>
+          <div>
             <label for="email" class="block text-sm font-medium">Email</label>
             <input id="email" type="email" class="mt-1 w-full px-3 py-2 border rounded" placeholder="Votre email">
+          </div>
+          <div>
+            <label for="phone" class="block text-sm font-medium">Téléphone</label>
+            <input id="phone" type="tel" class="mt-1 w-full px-3 py-2 border rounded" placeholder="Numéro de téléphone">
           </div>
           <div>
             <label for="message" class="block text-sm font-medium">Message</label>
@@ -60,6 +71,10 @@
           </div>
           <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Envoyer</button>
         </form>
+        <div class="mt-8 text-center text-sm text-gray-600">
+          <p><i class="fa-solid fa-envelope mr-1"></i> contact@ai-integration.com</p>
+          <p><i class="fa-solid fa-phone mr-1"></i> +33 1 23 45 67 89</p>
+        </div>
       </div>
     </section>
   </main>
