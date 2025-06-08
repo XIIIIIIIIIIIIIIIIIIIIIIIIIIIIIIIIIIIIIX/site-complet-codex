@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Integration - Accueil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+  <!-- Header -->
+  <nav class="bg-gray-800 text-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+          <span class="font-bold text-xl">AI Integration</span>
+        </div>
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-baseline space-x-4">
+            <a href="index.html" class="hover:text-gray-300">Accueil</a>
+            <a href="services.html" class="hover:text-gray-300">Services</a>
+            <a href="about.html" class="hover:text-gray-300">À propos</a>
+            <a href="contact.html" class="hover:text-gray-300">Contact</a>
+          </div>
+        </div>
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="text-gray-300 focus:outline-none">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden px-2 pt-2 pb-3 space-y-1">
+      <a href="index.html" class="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700">Accueil</a>
+      <a href="services.html" class="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700">Services</a>
+      <a href="about.html" class="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700">À propos</a>
+      <a href="contact.html" class="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    <section class="bg-gray-100 py-20">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <h1 class="text-4xl font-bold mb-4">Intégrez l'Intelligence Artificielle à votre entreprise</h1>
+        <p class="text-lg mb-8">Solutions sur mesure pour TPE et PME.</p>
+        <a href="services.html" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Découvrir nos services</a>
+      </div>
+    </section>
+
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 bg-white shadow rounded">
+          <h2 class="text-2xl font-semibold mb-2">Audit IA</h2>
+          <p>Évaluation de votre potentiel d'automatisation et de données.</p>
+        </div>
+        <div class="p-6 bg-white shadow rounded">
+          <h2 class="text-2xl font-semibold mb-2">Intégration</h2>
+          <p>Mise en place de solutions IA adaptées à vos besoins.</p>
+        </div>
+        <div class="p-6 bg-white shadow rounded">
+          <h2 class="text-2xl font-semibold mb-2">Formation</h2>
+          <p>Accompagnement et montée en compétences de vos équipes.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      &copy; 2023 AI Integration. Tous droits réservés.
+    </div>
+  </footer>
+</body>
+</html>
